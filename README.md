@@ -58,5 +58,4 @@ Dieses Projekt nutzt AES-256 zur Verschlüsselung. Für maximale Sicherheit in P
 ### Profi-Tipp für die Kompilierung:
 Wenn du die `.exe` erstellst, achte darauf, dass du in der `client.py` im Code bei `self.client.connect(('127.0.0.1', 55555))` die IP-Adresse deines tatsächlichen Servers (z.B. deine VPS-IP oder lokale Netzwerk-IP) einträgst, falls du nicht nur auf deinem eigenen Rechner testen willst.
 
-Soll ich dir noch zeigen, wie du eine automatisierte Setup-Routine für den RSA-Schlüsselaustausch einbaust, damit jeder User einen eigenen Key hat?
 ```

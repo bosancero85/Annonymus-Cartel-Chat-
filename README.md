@@ -48,7 +48,7 @@ python -m PyInstaller --noconsole --onefile --collect-all customtkinter --name "
 
 Die fertigen Dateien findest du anschließend im Ordner dist/.
 
-#​🔒 Sicherheitshinweis
+##​🔒 Sicherheitshinweis
 
 Dieses Projekt nutzt AES-256 zur Verschlüsselung. Für maximale Sicherheit in Produktion sollte der SHARED_KEY in der client.py durch einen dynamischen RSA-Schlüsselaustausch (Diffie-Hellman) ersetzt werden.
 ​Erstellt für Bildungszwecke im Bereich Kryptografie und Netzwerkprogrammierung.
